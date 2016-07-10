@@ -1,0 +1,35 @@
+{
+  "name": "predicty-pick-component",
+  "version": "1.0.0",
+  "description": "PredictyPick component with fastn",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "example:js": "watchify example/index.js -o example/index.browser.js -d -v",
+    "eg": "npm-run-all example:*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shotlom/predicty-pick-component.git"
+  },
+  "dependencies": {
+    "crel": "^2.1.8",
+    "defaultcss": "^1.1.1",
+    "fastn": "^2.5.0",
+    "predicty-pick": "^2.0.1"
+  },
+  "keywords": [
+    "predicty",
+    "predicty-pick",
+    "fastn"
+  ],
+  "author": "Sholto Maud",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shotlom/predicty-pick-component/issues"
+  },
+  "homepage": "https://github.com/shotlom/predicty-pick-component#readme"
+}
